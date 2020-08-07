@@ -17,6 +17,7 @@
 // }
 @import "minima";
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Righteous&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 
@@ -24,6 +25,9 @@
 body {
     // font-family: 'Roboto Mono', monospace;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav,header {
