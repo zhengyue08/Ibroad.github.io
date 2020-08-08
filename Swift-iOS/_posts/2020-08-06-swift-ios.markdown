@@ -2,7 +2,7 @@
 layout: post
 title:  "My first Swift/iOS Blog"
 date:   2020-08-06 10:00:40 +0800
-category: Swift/iOS
+category: Swift/iOSPosts
 ---
 
 # My first Swift/iOS Blog
