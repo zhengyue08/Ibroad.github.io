@@ -33,7 +33,7 @@ author: Richard Zheng
 # Remove minima theme to a regular theme.
 # theme: minima
 plugins:
-  # - jekyll-feed
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
