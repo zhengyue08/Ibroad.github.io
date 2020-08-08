@@ -55,6 +55,7 @@ main {
  * Images
  */
 img {
+  // max-width: 100%;
   max-width: 100%;
   vertical-align: middle;
 }
@@ -175,8 +176,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}*1.5));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit}*1.5));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;

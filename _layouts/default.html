@@ -6,8 +6,18 @@
   <body>
 
     {%- include header.html -%}
-
+    
     <main class="page-content" aria-label="Content">
+      {%- if page.category == "Python" -%}
+      <img src="/Python/test.jpg" alt="Fail" style=""/>
+      {%- endif -%}
+      {%- if page.category == "C/C++" -%}
+      <img src="/C-C++/test2.jpg" alt="Fail" style=""/>
+      {%- endif -%}
+      {%- if page.category == "Swift/iOS" -%}
+      <img src="/Python/test.jpg" alt="Fail" style=""/>
+      {%- endif -%}
+
       <div class="wrapper">
         {{ content }}
       </div>
