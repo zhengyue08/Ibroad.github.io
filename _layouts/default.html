@@ -3,19 +3,22 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body background="/backgroundmsc.png" style="background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
 
     {%- include header.html -%}
     
     <main class="page-content" aria-label="Content">
+      {%- if page.category == home -%}
+      <div style="text-align: center;"><img src="/home.png" alt="Fail" width=50%/></div>
+      {%- endif -%}
       {%- if page.category == "Python" -%}
-      <img src="/Python/test.jpg" alt="Fail" style=""/>
+      <img src="/Python/python.png" alt="Fail" />
       {%- endif -%}
       {%- if page.category == "C/C++" -%}
-      <img src="/C-C++/test2.jpg" alt="Fail" style=""/>
+      <div style="text-align: center;"><img src="/C-C++/C++.png" alt="Fail" width= 54%/></div>
       {%- endif -%}
       {%- if page.category == "Swift/iOS" -%}
-      <img src="/Python/test.jpg" alt="Fail" style=""/>
+      <img src="/Swift-iOS/Swift.png" alt="Fail"/>
       {%- endif -%}
 
       <div class="wrapper">

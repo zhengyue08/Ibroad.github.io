@@ -1,5 +1,6 @@
 ---
 layout: default
+category: home
 ---
 
 <div class="home">
@@ -10,7 +11,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Post" }}</h2>
+    <br/>
     <!-- Post title -->
     <ul class="post-list">
       {%- for post in site.posts -%}
@@ -29,7 +30,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
   {%- endif -%}
 
 </div>
