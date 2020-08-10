@@ -1,20 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-// $base-font-family:  'Josefin Sans', sans-serif;
 
-
-
-// @import "minima";
-
-// $base-font-family: jf-openhuninn;
-
-// @import "minima";
-
-// @font-face {
-//   font-family: 'jf-openhuninn';
-//   src: url('jf-openhuninn-1.0.ttf') format('truetype');
-// }
 @import "minima";
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Righteous&family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -35,26 +22,4 @@ nav,header {
 }
 footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-// h {
-//     font-family: 'Pacifico', cursive;;
-// }
-// h1 {
-//   font-family: jf-openhuninn, $base-font-family;
-// }
-// nav {
-//     font-family: jf-openhuninn, $base-font-family;
-// }
-// // nav {
-// //     font-family: jf-openhuninn, $base-font-family;
-// // }
-// a {
-//     font-family: jf-openhuninn, $base-font-family;
-// }
-
-span {
-    font-family: monospace;
-    font-size: 12px;
-    color: $grey-color;
-    
 }

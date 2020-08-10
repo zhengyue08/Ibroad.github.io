@@ -151,6 +151,12 @@
   text-align: center;
 }
 
+.count {
+    @include relative-font-size(0.6);
+    font-family: 'Open Sans', sans-serif !important;
+    color: $count-color !important;
+}
+
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
@@ -255,3 +261,5 @@
     }
   }
 }
+
+// 

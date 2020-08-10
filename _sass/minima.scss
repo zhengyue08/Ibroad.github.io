@@ -26,22 +26,21 @@ $content-width:    850px !default;
 $on-palm:          600px !default;
 $on-laptop:        850px !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
+$count-color:      #bdbaba;
+
+
+
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
   }
 }
 
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
-}
 
 // Import partials.
 @import
