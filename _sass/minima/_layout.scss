@@ -11,11 +11,11 @@
 }
 
 .site-title {
-  @include relative-font-size(2.000);
-  font-weight: 300;
+  @include relative-font-size(2);
+  font-weight: 200;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   float: left;
 
   &,
@@ -225,9 +225,10 @@
 }
 
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2.5);
+  margin-top: 5px;
   letter-spacing: -1px;
-  line-height: 1;
+  line-height: 2;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -236,6 +237,7 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  margin-top: 35px;
 
   h2 {
     @include relative-font-size(2);
