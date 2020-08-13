@@ -263,5 +263,8 @@
     }
   }
 }
-
-// 
+.comment {
+  color:rgb(180, 179, 179) !important;
+  font-family: 'Open Sans', sans-serif;
+  @include relative-font-size(0.8);
+}
