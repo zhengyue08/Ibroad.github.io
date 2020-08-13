@@ -47,4 +47,4 @@ It's pretty easy so that you can get rid of clicking again and again. The only t
 
 But, the second way still has its drawback. In the PS method, we can adjust how frequently the degrees of grey changes by modify few `settings` of brush. But if you use Python method, it seems more complex to meet this require and I haven't found a easy way so far. But it maybe doesn't matter a lot.  
 
-You still can use ways mentioned to make other background consists of regular shape and arrangement. Wish to have your ideal background images.😜
+You still can use ways mentioned to make other background consists of regular shape and arrangement. Wish you to have your ideal background images.😜
