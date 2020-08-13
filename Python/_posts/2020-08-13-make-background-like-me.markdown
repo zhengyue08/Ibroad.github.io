@@ -6,8 +6,14 @@ category: PythonPosts
 ---
 When I settled down to build the blog used the Theme called `minima`, what concerned me most was the white background which made the website more commercial rather than a personal blog. So I racked my brain to find out a suitable backgroundimage. Inspiration comes in moments. Using mosaic in varous degrees grey as my backgound occured to me just in a small talk with a friend.  
    
+Download a picture like a waterfall and make the photos mosaics using a filter in PS may be the most easy way. But like that ???? 🤣🤣🤣 So DISAPPOINTING!!!   
+That made me determined to BUILD one from scratch.
 
-At the very beginning, I made this image totally using PS and Keynote. Drew a from in Keynote, Took a screenshot and open it in PS, and then filled every square using the square brush like that. It drived my eyes ache so much😭. In the end, chose the form in another layer and then deleted it. You can also add several color shapes to make it better. It's a good way with certain advantages(I will mention at the end), but repeating the same work is not a coder should do, right😎?  
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghozr49nskj30m40em74h.jpg) 
+
+
+At the very beginning, I made this image totally using PS and Keynote. Drew a from in Keynote, Took a screenshot and open it in PS, and then filled every square using the square brush like that. It drived my eyes ache so much😭. In the end, chose the form in another layer and then deleted it. You can also add several color shapes to make it better. It's a good way with certain advantages(I will mention at the end), but repeating the same work is not a coder should do, right😎?   
+
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1ghoywq43bfj31fm0u0whe.jpg)
    
 So, I'll show you how to make a mosaic background using `turtle` in Python. Code is the best explanation.
